@@ -1,0 +1,21 @@
+<div>
+  <a routerLink="/logout">Logout</a>
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Order Id</th>
+      <th scope="col">customer name</th>
+      <th scope="col">Customer Address</th>
+      <th scope="col">Order Total Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of items">
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.customerName}}</td>
+      <td>{{item.customerAddress}}</td>
+      <td>{{item.total}}</td>
+    </tr>
+  </tbody>
+</table>
