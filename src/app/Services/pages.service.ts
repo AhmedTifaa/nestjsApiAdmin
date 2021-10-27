@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PagesService{
-  private baseUrl='http://localhost:3000';
+  private baseUrl='http://onmarket-nest.herokuapp.com';
  constructor(private http:HttpClient){}
   listOrders(){
     return this.http.get(`${this.baseUrl}/order`);
