@@ -5,9 +5,9 @@
   "projects": {
     "admin-frontend": {
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "",
       "schematics": {},
       "architect": {
         "build": {
